@@ -2,3 +2,11 @@
 .bundle
 Gemfile.lock
 pkg/*
+*.rbc
+.DS_Store
+.bundle
+.rvmrc
+.yardoc
+coverage/*
+doc/*
+log/*

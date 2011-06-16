@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "zillow_ruby/version"
+require "zillow/version"
 
 Gem::Specification.new do |s|
   s.name        = "zillow_ruby"
