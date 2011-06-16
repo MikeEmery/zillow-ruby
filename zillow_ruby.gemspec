@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
   s.name        = "zillow_ruby"
   s.version     = ZillowRuby::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
+  s.authors     = ["Mike Emery"]
+  s.email       = ["philodoxx@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{A thin wrapper around the Zillow API.}
+  s.description = %q{A thin wrapper around the Zillow API.  Currently only supports retrieving mortgage rates.}
 
   s.rubyforge_project = "zillow_ruby"
 
