@@ -1,4 +1,0 @@
-Usage:
-
-ZillowRuby.configure { |z| z.zws_id = 'abc' }
-ZillowRuby.thirty_year_fixed
