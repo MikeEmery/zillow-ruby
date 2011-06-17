@@ -1,6 +1,6 @@
 module ZillowRuby
 	module Configuration
-		attr_accessor :host
+		attr_accessor :zws_id
 
 		def configure
 			yield self
