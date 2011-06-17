@@ -1,7 +1,9 @@
 
-require 'zillow/configuration'
+require 'zillow_ruby/configuration'
+require 'zillow_ruby/mortgage'
 
 module ZillowRuby
 	extend Configuration
-  # Your code goes here...
+	extend Mortgage
+	include HTTParty
 end

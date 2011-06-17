@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Mike Emery"]
   s.email       = ["philodoxx@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/MikeEmery/zillow-ruby"
   s.summary     = %q{A thin wrapper around the Zillow API.}
   s.description = %q{A thin wrapper around the Zillow API.  Currently only supports retrieving mortgage rates.}
 
@@ -18,4 +18,7 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
+
+	s.add_runtime_dependency 'hashie', '~> 1.0.0'
+	s.add_runtime_dependency 'httparty', '~> 0.7.0'
 end
