@@ -17,10 +17,10 @@ module ZillowRuby
 	end
 	
 	def self.thirty_year_fixed
-	  value = default
+	  value = default_interest_rate
 	  
 	  begin
-	    rate_summary.thirtyYearFixed
+	    value = rate_summary.thirtyYearFixed.to_f
     rescue
       value = default_interest_rate
     end
